@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skills</title>
+    <div class="class">
+        <style>
+    .container{
+            display: grid;
+    
+        }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10%;
+    }
+    main{
+        height: 100vh;
+        display: grid;
+        grid-auto-rows: 1fr auto 1fr;
+    }
+    
+    .logo{
+        cursor: pointer;
+    }
+    
+    #main{
+        width: flex;
+        height: 100vh;
+        background-image: url(Projects.jpg);
+        background-size: cover;
+    }
+    nav{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        opacity: 0.4;
+        line-height: 60px;
+    
+    }
+    nav ul{
+        float: right;
+        margin-right: 10px;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        transition: 0.09s all ease-in 0.1s;
+    }
+    nav ul li:hover{
+        background-color: grey;
+    }
+    nav ul li a{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 30;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        padding: 100px;
+    }
+    </style>
+    <style>
+        
+        .container {
+          position: relative;
+          width: 100%;
+        }
+        
+        .image {
+          display: flex;
+          width: 100%;
+          height: auto;
+          
+          filter: blur(8px);
+            -webkit-filter: blur(8px);
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: 2s ease;
+          background-color: grey;
+        }
+        
+        .container:hover .overlay {
+          opacity: 0.9;
+        }
+        
+        .text {
+          color:black;
+          font-size: 50px;
+          position: absolute;
+          top: 50%;
+          left: 100%;
+          transform: translate(-50, -50%);
+          -ms-transform: translate(-50%, -50%);
+        }
+        </style>
+    
+</head>
+<body>
+    
+  
+<div class="container">
+    <img src="Projects.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">
+          <strong>PROJECTS</strong>
+          <p>this is a paragraph</p>
+        </div>
+    </div>
+  </div>
+
+  
+    </style>
+</body>
+</html>
